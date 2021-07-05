@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Swiper</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href="../CSS/nestedSwiper.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+</head>
+
+
+
+<body>
+    <div id="container">
+        <div id="herohead"></div>
+
+        <!--main-->
+        <h1>Nested Slide</h1>
+        <!--Nested Swiper -->
+        <div class="swiper-container mySwiper swiper-container-h">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/06/29/18/55/mountain-slope-6374980__340.jpg" alt=""></div>
+              <div class="swiper-slide">
+                <div class="swiper-container mySwiper2 swiper-container-v">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/05/10/14/48/rain-6243559__340.jpg" alt=""></div>
+                    <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/05/13/18/18/fashion-6251535__340.jpg" alt=""></div>
+                    <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/05/14/22/11/faces-6254573__340.jpg" alt=""></div>
+                    <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2020/12/15/14/20/aerial-view-5833791__340.jpg" alt=""></div>
+                    <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/06/30/18/09/dragonfly-6377360__340.jpg" alt=""> </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/06/11/11/15/flower-6328348__340.jpg" alt=""></div>
+              <div class="swiper-slide"> <img src="https://cdn.pixabay.com/photo/2021/01/20/21/32/prague-5935651__340.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <h1>Nested Slide</h1>
+          <!--Mousewheel Swiper -->
+          <!-- <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div> -->
+
+
+        <!--footer in assignmet: year 2020-->
+        <div id="footer"></div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
