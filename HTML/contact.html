@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Review 1</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="herohead"></div>
+
+        <div class="main" id="contact">
+            <h2>Contact</h2>
+            <p>Please enter mandatory fields</p>
+            <hr>
+            <form>
+                <p>*Select gender: </p>
+                <select name="gender">
+                    <option value="male">male</option>
+                    <option value="female" selected>female</option>
+                    <option value="other">other</option>
+                </select>
+                <p>*First name:<br>
+                    <input type="text" name="firstname" placeholder="First name"><br>
+                </p>
+                <p>*Last name:<br>
+                    <input type="text" name="lastname" placeholder="Family Name">
+                </p><br>
+
+                <p>You can leave your message here: <br>
+                    <textarea name="message" rows="10" cols="30">
+      </textarea>
+                </p>
+                <br>
+                <br>
+                <input id="button" type="submit" value="Submit your data">
+            </form>
+            <p><small>*These values are mandatory</small></p>
+        </div>
+        <div id="footer"></div>
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
