@@ -48,3 +48,7 @@ object-fit: cover;
 .swiper-container-v {
     background: #eee;
 }
+
+:root {
+    --swiper-theme-color: red !important;
+  }
